@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="THE WAKE-UP CALL INT'L is a purpose-driven, faith-inspired development initiative committed to restoring discipline, urgency, and personal responsibility for sustainable transformation.">
+    <meta name="keywords" content="faith-based development, personal responsibility, leadership, youth empowerment, transformation">
+    <title>THE WAKE-UP CALL INT'L | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/5507142bb7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">THE WAKE-UP CALL</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="work.html" class="nav-link">Our Work</a>
+                <a href="leadership.html" class="nav-link">Leadership</a>
+                <a href="get-involved.html" class="nav-link">Get Involved</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Awakening Responsibility. Inspiring Action. Driving Excellence.</h1>
+            <p class="hero-subtext">The Wake-Up Call Int’l is a purpose-driven, faith-inspired development initiative committed to restoring discipline, urgency, and personal responsibility for sustainable transformation.</p>
+            <div class="hero-buttons">
+                <a href="get-involved.html" class="btn-primary">Get Involved</a>
+                <a href="about.html" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <!-- Hero background image: community leadership or group empowerment session -->
+        <div class="hero-image"></div>
+    </section>
+
+    <!-- Who We Are Section -->
+    <section class="who-we-are">
+        <div class="container">
+            <h2>Who We Are</h2>
+            <p>THE WAKE-UP CALL INT'L is a purpose-driven, faith-inspired development initiative committed to awakening individuals to personal responsibility, proactive living, and excellence. Inspired by the message of Matthew 13:25 — "While men slept..." — our work addresses a critical reality facing individuals and societies today: too many lives and systems decline not for lack of potential, but because of delayed awareness and inaction.</p>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="what-we-do">
+        <div class="container">
+            <h2>What We Do</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-graduation-cap fa-shake fa-xl" style="color: #17243b;"></i></div>
+                    <h3>Academic & Career Guidance</h3>
+                    <p>Providing mentorship and strategic planning for educational and professional pathways.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-seedling fa-beat fa-xl" style="color: #19263e;"></i></div>
+                    <h3>Personal Growth & Development</h3>
+                    <p>Equipping individuals with tools for self-awareness, discipline, and character development.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-lightbulb fa-beat-fade fa-xl" style="color: #18263e;"></i></div>
+                    <h3>Leadership Development</h3>
+                    <p>Cultivating visionary, ethical leaders committed to service and transformation.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-ranking-star fa-bounce fa-xl" style="color: #1b2b46;"></i></div>
+                    <h3>Performance Improvement</h3>
+                    <p>Enhancing productivity and effectiveness through accountability systems and goal setting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Join the Movement</h2>
+            <p>Be part of a growing community committed to awakening responsibility and driving transformation.</p>
+            <a href="get-involved.html" class="btn-primary">Get Involved Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>THE WAKE-UP CALL INT'L</h3>
+                    <p>Awakening Responsibility. Inspiring Action. Driving Excellence.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="work.html">Our Work</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@wake-up-call.org</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 THE WAKE-UP CALL INT'L. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
